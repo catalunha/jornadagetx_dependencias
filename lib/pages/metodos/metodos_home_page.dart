@@ -27,6 +27,27 @@ class MetodosHomePage extends StatelessWidget {
               },
               child: const Text('Lazy Put'),
             ),
+            ElevatedButton(
+              onPressed: () {
+                // Get.toNamed('/metodos/lazyPut');
+                Navigator.of(context).pushNamed('/metodos/putAsync');
+              },
+              child: const Text('putAsync'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Get.toNamed('/metodos/lazyPut');
+                Navigator.of(context).pushNamed('/metodos/create');
+              },
+              child: const Text('create'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Get.toNamed('/metodos/lazyPut');
+                Navigator.of(context).pushNamed('/metodos/update');
+              },
+              child: const Text('update'),
+            ),
           ],
         ),
       ),

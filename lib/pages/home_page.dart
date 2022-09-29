@@ -27,6 +27,13 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Metodos'),
             ),
+            ElevatedButton(
+              onPressed: () {
+                // Get.toNamed('/basico');
+                Navigator.of(context).pushNamed('/bindings');
+              },
+              child: const Text('Bindings'),
+            ),
           ],
         ),
       ),
