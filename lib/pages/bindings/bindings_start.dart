@@ -9,6 +9,6 @@ class BindingsStart extends Bindings {
   void dependencies() {
     print('BindingsStart dependencies');
 
-    Get.put(BindingsController(nome: 'Nome inicial'));
+    Get.put(BindingsController(nome: 'Bindings de extends Bindings'));
   }
 }
